@@ -22,26 +22,38 @@ export const NavBar = () => {
                 </div>
                 <div className="col-12">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
-                        <a className="nav-link text-sm" href="/">Categorias</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Vehículos</a></li>
+                                <li><a class="dropdown-item" href="#">Supermercado</a></li>
+                                <li><a class="dropdown-item" href="#">Electrodomésticos</a></li>
+                                <li><a class="dropdown-item" href="#">Hogar y Muebles</a></li>
+                                <li><a class="dropdown-item" href="#">Deportes y Fitness</a></li>
+                                <li><a class="dropdown-item" href="#">Belleza y Cuidado Personal</a></li>
+                                <li><a class="dropdown-item" href="#">Accesorios para Vehiculos</a></li>
+                                <li><a class="dropdown-item" href="#">Herramientas</a></li>
+                            </ul>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/productos">Ofertas</a>
+                            <a className="nav-link" href="/productos">Ofertas</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/carrito">Historial</a>
+                            <a className="nav-link" href="/carrito">Historial</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/carrito">Supermercado</a>
+                            <a className="nav-link" href="/carrito">Supermercado</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/carrito">Moda</a>
+                            <a className="nav-link" href="/carrito">Moda</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/carrito">Vender</a>
+                            <a className="nav-link" href="/carrito">Vender</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/carrito">Ayuda / PQR</a>
+                            <a className="nav-link" href="/carrito">Ayuda / PQR</a>
                         </li>
                     </ul>
                 </div>

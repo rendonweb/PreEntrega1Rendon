@@ -1,0 +1,11 @@
+.navbar-color {
+    background-color: #fff159;
+}
+
+input::placeholder {
+    color: #a0a0a0 !important;
+}
+
+nav {
+    font-size: 14px !important;
+}

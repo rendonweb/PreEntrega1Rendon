@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import styled from 'styled-components'
 import './App.css'
+import { CartWidget } from './components/navbar/CartWidget'
+import { NavBar } from './components/navbar/NavBar'
+import { ItemList } from './components/itemlist/ItemList';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const AppContainer = styled.div`
+    background: #f5f5f5;
+    height: 100vh;
+  `;
 
   return (
     <>
-      
+      <AppContainer>
+        <NavBar />
+        <ItemList />
+      </AppContainer>
     </>
   )
 }

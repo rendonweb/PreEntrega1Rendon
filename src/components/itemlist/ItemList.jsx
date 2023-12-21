@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const ItemList = () => {
+export const ItemList = ({ greeting }) => {
 
   return (
-    <div className='container my-3'>Hola! Bienvenido a Libremercado...</div>
+    <div className='container my-3'>{ greeting }</div>
   )
 }

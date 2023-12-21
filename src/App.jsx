@@ -15,7 +15,7 @@ function App() {
     <>
       <AppContainer>
         <NavBar />
-        <ItemList />
+        <ItemList greeting={'Hola! Bienvenido a Libremercado...'} />
       </AppContainer>
     </>
   )
